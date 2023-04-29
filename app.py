@@ -10,7 +10,8 @@ db = GroceryDB()
 @app.route('/grocery')
 def all_grocery():
     """Get all grocery"""
-    pass
+    list_grocery = db.all()
+    return list_grocery
 
 
 # view add grocery
