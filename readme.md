@@ -107,3 +107,41 @@ response:
 | `quantity` | `int` | the quantity of the fruit. |
 | `price` | `float` | the price of the fruit. |
 | `type` | `string` | the type of the fruit. |
+
+2. POST `/grocery/add` - add new grocery to database.
+
+request:
+
+```json
+{
+    "name": "Apple",
+    "quantity": 2,
+    "price": 2.4,
+    "type": "fruit"
+}
+```
+
+| parameter | type | description |
+| --- | --- | --- |
+| `name` | `string` | the name of the fruit. |
+| `quantity` | `int` | the quantity of the fruit. |
+| `price` | `float` | the price of the fruit. |
+| `type` | `string` | the type of the fruit. |
+
+response:
+
+```json
+{
+    "name": "Apple",
+    "quantity": 2,
+    "price": 2.4,
+    "type": "fruit"
+}
+```
+
+| parameter | type | description |
+| --- | --- | --- |
+| `name` | `string` | the name of the fruit. |
+| `quantity` | `int` | the quantity of the fruit. |
+| `price` | `float` | the price of the fruit. |
+| `type` | `string` | the type of the fruit. |

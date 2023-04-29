@@ -209,6 +209,18 @@
             "quantity": 10,
             "price": 4.8,
             "type": "fruit"
+        },
+        "36": {
+            "name": "Apple",
+            "quantity": 22,
+            "price": 9.4,
+            "type": "fruit"
+        },
+        "37": {
+            "name": "Apple",
+            "quantity": 22,
+            "price": 9.4,
+            "type": "fruit"
         }
     }
 }
