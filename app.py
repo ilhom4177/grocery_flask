@@ -38,14 +38,16 @@ def all_grocery_by_type(type):
 @app.route('/grocery/name/<name>')
 def all_grocery_by_name(name):
     """Get all grocery by name"""
-    pass
+    
+    return db.get_by_name(name=name)
 
 
 # view all grocery by price
 @app.route('/grocery/price/<float:price>')
 def all_grocery_by_price(price):
     """Get all grocery by price"""
-    pass
+    
+    return db.get_by_price(price=price)
 
 
 
