@@ -6,6 +6,10 @@ app = Flask(__name__)
 db = GroceryDB()
 
 
+@app.route('/')
+def index():
+    return 'Hello fromm Diyorbek'
+
 # view all grocery
 @app.route('/grocery')
 def all_grocery():
